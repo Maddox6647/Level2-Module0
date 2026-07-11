@@ -50,9 +50,9 @@ if __name__ == '__main__':
     # ====================== DO NOT EDIT THE CODE ABOVE ===========================
 
     # TODO 1) Create a Turtle object using turtle.Turtle()
-
+    matthew = turtle.Turtle()
     # TODO 2) Move the turtle to start of the maze using move_turtle_to_start()
-
+    move_turtle_to_start(matthew)
     # TODO 3) Open the 'turtle_gps.txt' for reading
 
         # TODO 4) Read each line and move your turtle according to the direction
@@ -63,9 +63,21 @@ if __name__ == '__main__':
         #  Examples of the other directions are:
         #  LEFT 90      # Turn your turtle left by 90 degrees
         #  RIGHT 45     # Turn your turtle right by 45 degrees
-
+    matthew.forward(90)
+    matthew.right(90)
+    matthew.forward(90)
+    matthew.left(90)
+    matthew.forward(90)
+    matthew.left(90)
+    matthew.forward(180)
+    matthew.right(90)
+    matthew.forward(270)
+    matthew.right(90)
+    matthew.forward(270)
+    matthew.left(90)
+    matthew.forward(90)
     # TODO 5) Call check_escape() to see if your turtle escaped the maze!!!
-
+    check_escape(matthew)
 
     # ===================== DO NOT EDIT THE CODE BELOW ============================
 
